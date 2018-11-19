@@ -880,30 +880,7 @@ public class RootTag {
         }
 
 
-        /**
-         * <p>Java class for anonymous complex type.
-         * 
-         * <p>The following schema fragment specifies the expected content contained within this class.
-         * 
-         * <pre>
-         * &lt;complexType>
-         *   &lt;complexContent>
-         *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
-         *       &lt;sequence>
-         *         &lt;element name="FirstName" type="{http://www.w3.org/2001/XMLSchema}string"/>
-         *         &lt;element name="LastName" type="{http://www.w3.org/2001/XMLSchema}string"/>
-         *         &lt;element name="EmailAddress" type="{http://www.w3.org/2001/XMLSchema}string"/>
-         *         &lt;element name="StartDate" type="{http://www.w3.org/2001/XMLSchema}dateTime"/>
-         *         &lt;element name="EndDate" type="{http://www.w3.org/2001/XMLSchema}string"/>
-         *         &lt;element name="RoleCode" type="{http://www.w3.org/2001/XMLSchema}int"/>
-         *       &lt;/sequence>
-         *     &lt;/restriction>
-         *   &lt;/complexContent>
-         * &lt;/complexType>
-         * </pre>
-         * 
-         * 
-         */
+       
         @XmlAccessorType(XmlAccessType.FIELD)
         @XmlType(name = "", propOrder = {
             "firstName",
@@ -1068,47 +1045,7 @@ public class RootTag {
         }
 
 
-        /**
-         * <p>Java class for anonymous complex type.
-         * 
-         * <p>The following schema fragment specifies the expected content contained within this class.
-         * 
-         * <pre>
-         * &lt;complexType>
-         *   &lt;complexContent>
-         *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
-         *       &lt;sequence>
-         *         &lt;element name="Code" type="{http://www.w3.org/2001/XMLSchema}int"/>
-         *         &lt;element name="Directorate">
-         *           &lt;complexType>
-         *             &lt;complexContent>
-         *               &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
-         *                 &lt;sequence>
-         *                   &lt;element name="LongName" type="{http://www.w3.org/2001/XMLSchema}string"/>
-         *                 &lt;/sequence>
-         *               &lt;/restriction>
-         *             &lt;/complexContent>
-         *           &lt;/complexType>
-         *         &lt;/element>
-         *         &lt;element name="Division">
-         *           &lt;complexType>
-         *             &lt;complexContent>
-         *               &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
-         *                 &lt;sequence>
-         *                   &lt;element name="LongName" type="{http://www.w3.org/2001/XMLSchema}string"/>
-         *                 &lt;/sequence>
-         *               &lt;/restriction>
-         *             &lt;/complexContent>
-         *           &lt;/complexType>
-         *         &lt;/element>
-         *       &lt;/sequence>
-         *     &lt;/restriction>
-         *   &lt;/complexContent>
-         * &lt;/complexType>
-         * </pre>
-         * 
-         * 
-         */
+        
         @XmlAccessorType(XmlAccessType.FIELD)
         @XmlType(name = "", propOrder = {
             "code",
@@ -1189,25 +1126,6 @@ public class RootTag {
             }
 
 
-            /**
-             * <p>Java class for anonymous complex type.
-             * 
-             * <p>The following schema fragment specifies the expected content contained within this class.
-             * 
-             * <pre>
-             * &lt;complexType>
-             *   &lt;complexContent>
-             *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
-             *       &lt;sequence>
-             *         &lt;element name="LongName" type="{http://www.w3.org/2001/XMLSchema}string"/>
-             *       &lt;/sequence>
-             *     &lt;/restriction>
-             *   &lt;/complexContent>
-             * &lt;/complexType>
-             * </pre>
-             * 
-             * 
-             */
             @XmlAccessorType(XmlAccessType.FIELD)
             @XmlType(name = "", propOrder = {
                 "longName"
@@ -1244,25 +1162,7 @@ public class RootTag {
             }
 
 
-            /**
-             * <p>Java class for anonymous complex type.
-             * 
-             * <p>The following schema fragment specifies the expected content contained within this class.
-             * 
-             * <pre>
-             * &lt;complexType>
-             *   &lt;complexContent>
-             *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
-             *       &lt;sequence>
-             *         &lt;element name="LongName" type="{http://www.w3.org/2001/XMLSchema}string"/>
-             *       &lt;/sequence>
-             *     &lt;/restriction>
-             *   &lt;/complexContent>
-             * &lt;/complexType>
-             * </pre>
-             * 
-             * 
-             */
+
             @XmlAccessorType(XmlAccessType.FIELD)
             @XmlType(name = "", propOrder = {
                 "longName"
@@ -1301,26 +1201,7 @@ public class RootTag {
         }
 
 
-        /**
-         * <p>Java class for anonymous complex type.
-         * 
-         * <p>The following schema fragment specifies the expected content contained within this class.
-         * 
-         * <pre>
-         * &lt;complexType>
-         *   &lt;complexContent>
-         *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
-         *       &lt;sequence>
-         *         &lt;element name="Code" type="{http://www.w3.org/2001/XMLSchema}int"/>
-         *         &lt;element name="Text" type="{http://www.w3.org/2001/XMLSchema}string"/>
-         *       &lt;/sequence>
-         *     &lt;/restriction>
-         *   &lt;/complexContent>
-         * &lt;/complexType>
-         * </pre>
-         * 
-         * 
-         */
+
         @XmlAccessorType(XmlAccessType.FIELD)
         @XmlType(name = "", propOrder = {
             "code",
@@ -1376,25 +1257,7 @@ public class RootTag {
         }
 
 
-        /**
-         * <p>Java class for anonymous complex type.
-         * 
-         * <p>The following schema fragment specifies the expected content contained within this class.
-         * 
-         * <pre>
-         * &lt;complexType>
-         *   &lt;complexContent>
-         *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
-         *       &lt;sequence>
-         *         &lt;element name="SignBlockName" type="{http://www.w3.org/2001/XMLSchema}string"/>
-         *       &lt;/sequence>
-         *     &lt;/restriction>
-         *   &lt;/complexContent>
-         * &lt;/complexType>
-         * </pre>
-         * 
-         * 
-         */
+
         @XmlAccessorType(XmlAccessType.FIELD)
         @XmlType(name = "", propOrder = {
             "signBlockName"
@@ -1431,26 +1294,7 @@ public class RootTag {
         }
 
 
-        /**
-         * <p>Java class for anonymous complex type.
-         * 
-         * <p>The following schema fragment specifies the expected content contained within this class.
-         * 
-         * <pre>
-         * &lt;complexType>
-         *   &lt;complexContent>
-         *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
-         *       &lt;sequence>
-         *         &lt;element name="Code" type="{http://www.w3.org/2001/XMLSchema}int"/>
-         *         &lt;element name="Text" type="{http://www.w3.org/2001/XMLSchema}string"/>
-         *       &lt;/sequence>
-         *     &lt;/restriction>
-         *   &lt;/complexContent>
-         * &lt;/complexType>
-         * </pre>
-         * 
-         * 
-         */
+
         @XmlAccessorType(XmlAccessType.FIELD)
         @XmlType(name = "", propOrder = {
             "code",
