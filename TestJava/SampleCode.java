@@ -1,5 +1,5 @@
 /**
- * 
+ *
  */
 
 /**
@@ -9,10 +9,10 @@
 public class SampleCode {
 
 	public void testConditionNotUsed (){
-		
-		boolean a = false,b = true;		
+
+		boolean a = false,b = true;
 		int index = 0;
-		
+
 		if (a) { // Non-compliant
 		  index ++; // never executed
 		}
