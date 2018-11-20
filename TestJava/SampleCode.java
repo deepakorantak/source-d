@@ -1,11 +1,4 @@
-﻿/**
- *
- */
 
-/**
- * @author Deepa Korantak
- *
- */
 public class SampleCode {
 
 	public void testConditionNotUsed (){
@@ -13,17 +6,15 @@ public class SampleCode {
 		boolean a = false,b = true;
 		int index = 0;
 
-		if (a) { // Non-compliant
-		  index ++; // never executed
+		if (a) {
+		  index ++;
 		}
 
-		if (!a || b) { // Non-compliant; "!a" is always "true", "b" is never evaluated
+		if (!a || b) {
 		  index --;
 		} else {
-		  index ++; // never executed
+		  index ++;
 		}
 	}
 
-
 }
-
