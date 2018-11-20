@@ -18,7 +18,7 @@ public class SampleCode {
 		}
 
 		if (!a || b) { // Non-compliant; "!a" is always "true", "b" is never evaluated
-		  index = 0;
+		  index --;
 		} else {
 		  index ++; // never executed
 		}
