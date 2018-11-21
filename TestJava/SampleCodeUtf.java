@@ -1,4 +1,4 @@
-﻿public class SampleCode {
+public class SampleCode {
 
 	public void testConditionNotUsed (){
 
