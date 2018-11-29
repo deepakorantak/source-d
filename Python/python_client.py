@@ -3,6 +3,7 @@ import sys
 
 from bblfsh import filter as filter_uast
 from java_sonar_rule_RSPEC_1214 import rule_chk as rule_chk
+from java_while_rule import rule_chk as rule_chk_while
 
 if __name__ == "__main__":
 	
@@ -14,7 +15,7 @@ if __name__ == "__main__":
 		raise Exception('Some error happened: ' + str(response.errors))
 	
 	
-	findings = rule_chk(response.uast)	
+	findings = rule_chk_while(response.uast)	
 	print(findings)
 
 	
