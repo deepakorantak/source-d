@@ -4,6 +4,7 @@ import sys
 from bblfsh import filter as filter_uast
 from java_sonar_rule_RSPEC_1214 import rule_chk as rule_chk
 from java_while_rule import rule_chk as rule_chk_while
+from java_sonar_rule_RSPEC_1764 import rule_chk as rule_chk_1764
 
 if __name__ == "__main__":
 	
