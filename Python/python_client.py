@@ -1,5 +1,6 @@
 import bblfsh
 import sys
+import os
 
 from bblfsh import filter as filter_uast
 from java_sonar_rule_RSPEC_1214 import rule_chk as rule_chk
