@@ -1,0 +1,601 @@
+internal_type: "CompilationUnit"
+children {
+  internal_type: "TypeDeclaration"
+  properties {
+    key: "interface"
+    value: "false"
+  }
+  properties {
+    key: "internalRole"
+    value: "types"
+  }
+  children {
+    internal_type: "Modifier"
+    properties {
+      key: "internalRole"
+      value: "modifiers"
+    }
+    token: "public"
+    start_position {
+      line: 1
+      col: 1
+    }
+    end_position {
+      offset: 6
+      line: 1
+      col: 7
+    }
+    roles: VISIBILITY
+    roles: WORLD
+  }
+  children {
+    internal_type: "SimpleName"
+    properties {
+      key: "internalRole"
+      value: "name"
+    }
+    token: "One"
+    start_position {
+      offset: 13
+      line: 1
+      col: 14
+    }
+    end_position {
+      offset: 16
+      line: 1
+      col: 17
+    }
+    roles: EXPRESSION
+    roles: IDENTIFIER
+  }
+  children {
+    internal_type: "MethodDeclaration"
+    properties {
+      key: "constructor"
+      value: "false"
+    }
+    properties {
+      key: "internalRole"
+      value: "bodyDeclarations"
+    }
+    children {
+      internal_type: "Modifier"
+      properties {
+        key: "internalRole"
+        value: "modifiers"
+      }
+      token: "public"
+      start_position {
+        offset: 20
+        line: 2
+        col: 2
+      }
+      end_position {
+        offset: 26
+        line: 2
+        col: 8
+      }
+      roles: VISIBILITY
+      roles: WORLD
+    }
+    children {
+      internal_type: "Modifier"
+      properties {
+        key: "internalRole"
+        value: "modifiers"
+      }
+      token: "static"
+      start_position {
+        offset: 27
+        line: 2
+        col: 9
+      }
+      end_position {
+        offset: 33
+        line: 2
+        col: 15
+      }
+      roles: INCOMPLETE
+    }
+    children {
+      internal_type: "PrimitiveType"
+      properties {
+        key: "internalRole"
+        value: "returnType2"
+      }
+      token: "void"
+      start_position {
+        offset: 34
+        line: 2
+        col: 16
+      }
+      end_position {
+        offset: 38
+        line: 2
+        col: 20
+      }
+      roles: TYPE
+      roles: PRIMITIVE
+    }
+    children {
+      internal_type: "SimpleName"
+      properties {
+        key: "internalRole"
+        value: "name"
+      }
+      token: "main"
+      start_position {
+        offset: 39
+        line: 2
+        col: 21
+      }
+      end_position {
+        offset: 43
+        line: 2
+        col: 25
+      }
+      roles: EXPRESSION
+      roles: IDENTIFIER
+      roles: FUNCTION
+      roles: NAME
+    }
+    children {
+      internal_type: "SingleVariableDeclaration"
+      properties {
+        key: "internalRole"
+        value: "parameters"
+      }
+      properties {
+        key: "varargs"
+        value: "false"
+      }
+      children {
+        internal_type: "ArrayType"
+        properties {
+          key: "internalRole"
+          value: "type"
+        }
+        children {
+          internal_type: "SimpleType"
+          properties {
+            key: "internalRole"
+            value: "elementType"
+          }
+          children {
+            internal_type: "SimpleName"
+            properties {
+              key: "internalRole"
+              value: "name"
+            }
+            token: "String"
+            start_position {
+              offset: 44
+              line: 2
+              col: 26
+            }
+            end_position {
+              offset: 50
+              line: 2
+              col: 32
+            }
+            roles: EXPRESSION
+            roles: IDENTIFIER
+          }
+          start_position {
+            offset: 44
+            line: 2
+            col: 26
+          }
+          end_position {
+            offset: 50
+            line: 2
+            col: 32
+          }
+          roles: TYPE
+        }
+        children {
+          internal_type: "Dimension"
+          properties {
+            key: "internalRole"
+            value: "dimensions"
+          }
+          start_position {
+            offset: 50
+            line: 2
+            col: 32
+          }
+          end_position {
+            offset: 52
+            line: 2
+            col: 34
+          }
+          roles: TYPE
+          roles: INCOMPLETE
+        }
+        start_position {
+          offset: 44
+          line: 2
+          col: 26
+        }
+        end_position {
+          offset: 52
+          line: 2
+          col: 34
+        }
+        roles: TYPE
+        roles: PRIMITIVE
+        roles: LIST
+      }
+      children {
+        internal_type: "SimpleName"
+        properties {
+          key: "internalRole"
+          value: "name"
+        }
+        token: "args"
+        start_position {
+          offset: 53
+          line: 2
+          col: 35
+        }
+        end_position {
+          offset: 57
+          line: 2
+          col: 39
+        }
+        roles: EXPRESSION
+        roles: IDENTIFIER
+        roles: FUNCTION
+        roles: NAME
+        roles: ARGUMENT
+      }
+      start_position {
+        offset: 44
+        line: 2
+        col: 26
+      }
+      end_position {
+        offset: 57
+        line: 2
+        col: 39
+      }
+      roles: DECLARATION
+      roles: VARIABLE
+      roles: FUNCTION
+      roles: ARGUMENT
+    }
+    children {
+      internal_type: "Block"
+      properties {
+        key: "internalRole"
+        value: "body"
+      }
+      children {
+        internal_type: "WhileStatement"
+        properties {
+          key: "internalRole"
+          value: "statements"
+        }
+        children {
+          internal_type: "InfixExpression"
+          properties {
+            key: "internalRole"
+            value: "expression"
+          }
+          children {
+            internal_type: "Operator"
+            properties {
+              key: "internalRole"
+              value: "operator"
+            }
+            token: ">"
+            roles: GREATER_THAN
+            roles: RELATIONAL
+            roles: EXPRESSION
+            roles: OPERATOR
+            roles: BINARY
+          }
+          children {
+            internal_type: "NumberLiteral"
+            properties {
+              key: "internalRole"
+              value: "leftOperand"
+            }
+            properties {
+              key: "token"
+              value: "10"
+            }
+            start_position {
+              offset: 71
+              line: 3
+              col: 9
+            }
+            end_position {
+              offset: 73
+              line: 3
+              col: 11
+            }
+            roles: EXPRESSION
+            roles: LITERAL
+            roles: NUMBER
+            roles: BINARY
+            roles: LEFT
+          }
+          children {
+            internal_type: "NumberLiteral"
+            properties {
+              key: "internalRole"
+              value: "rightOperand"
+            }
+            properties {
+              key: "token"
+              value: "6"
+            }
+            start_position {
+              offset: 76
+              line: 3
+              col: 14
+            }
+            end_position {
+              offset: 77
+              line: 3
+              col: 15
+            }
+            roles: EXPRESSION
+            roles: LITERAL
+            roles: NUMBER
+            roles: BINARY
+            roles: RIGHT
+          }
+          start_position {
+            offset: 71
+            line: 3
+            col: 9
+          }
+          end_position {
+            offset: 77
+            line: 3
+            col: 15
+          }
+          roles: GREATER_THAN
+          roles: RELATIONAL
+          roles: EXPRESSION
+          roles: BINARY
+          roles: OPERATOR
+          roles: WHILE
+          roles: CONDITION
+        }
+        children {
+          internal_type: "Block"
+          properties {
+            key: "internalRole"
+            value: "body"
+          }
+          children {
+            internal_type: "ExpressionStatement"
+            properties {
+              key: "internalRole"
+              value: "statements"
+            }
+            children {
+              internal_type: "MethodInvocation"
+              properties {
+                key: "internalRole"
+                value: "expression"
+              }
+              children {
+                internal_type: "QualifiedName"
+                properties {
+                  key: "internalRole"
+                  value: "expression"
+                }
+                children {
+                  internal_type: "SimpleName"
+                  properties {
+                    key: "internalRole"
+                    value: "qualifier"
+                  }
+                  token: "System"
+                  start_position {
+                    offset: 84
+                    line: 4
+                    col: 4
+                  }
+                  end_position {
+                    offset: 90
+                    line: 4
+                    col: 10
+                  }
+                  roles: EXPRESSION
+                  roles: IDENTIFIER
+                }
+                children {
+                  internal_type: "SimpleName"
+                  properties {
+                    key: "internalRole"
+                    value: "name"
+                  }
+                  token: "out"
+                  start_position {
+                    offset: 91
+                    line: 4
+                    col: 11
+                  }
+                  end_position {
+                    offset: 94
+                    line: 4
+                    col: 14
+                  }
+                  roles: EXPRESSION
+                  roles: IDENTIFIER
+                }
+                start_position {
+                  offset: 84
+                  line: 4
+                  col: 4
+                }
+                end_position {
+                  offset: 94
+                  line: 4
+                  col: 14
+                }
+                roles: EXPRESSION
+                roles: IDENTIFIER
+                roles: QUALIFIED
+                roles: CALL
+                roles: RECEIVER
+              }
+              children {
+                internal_type: "SimpleName"
+                properties {
+                  key: "internalRole"
+                  value: "name"
+                }
+                token: "println"
+                start_position {
+                  offset: 95
+                  line: 4
+                  col: 15
+                }
+                end_position {
+                  offset: 102
+                  line: 4
+                  col: 22
+                }
+                roles: EXPRESSION
+                roles: IDENTIFIER
+                roles: CALL
+                roles: CALLEE
+              }
+              children {
+                internal_type: "StringLiteral"
+                properties {
+                  key: "internalRole"
+                  value: "arguments"
+                }
+                token: "\"Hello\""
+                start_position {
+                  offset: 103
+                  line: 4
+                  col: 23
+                }
+                end_position {
+                  offset: 110
+                  line: 4
+                  col: 30
+                }
+                roles: EXPRESSION
+                roles: LITERAL
+                roles: STRING
+                roles: CALL
+                roles: ARGUMENT
+                roles: POSITIONAL
+              }
+              start_position {
+                offset: 84
+                line: 4
+                col: 4
+              }
+              end_position {
+                offset: 111
+                line: 4
+                col: 31
+              }
+              roles: EXPRESSION
+              roles: CALL
+            }
+            start_position {
+              offset: 84
+              line: 4
+              col: 4
+            }
+            end_position {
+              offset: 112
+              line: 4
+              col: 32
+            }
+            roles: STATEMENT
+          }
+          start_position {
+            offset: 79
+            line: 3
+            col: 17
+          }
+          end_position {
+            offset: 116
+            line: 5
+            col: 4
+          }
+          roles: STATEMENT
+          roles: BLOCK
+          roles: SCOPE
+          roles: WHILE
+          roles: BODY
+        }
+        start_position {
+          offset: 65
+          line: 3
+          col: 3
+        }
+        end_position {
+          offset: 116
+          line: 5
+          col: 4
+        }
+        roles: STATEMENT
+        roles: WHILE
+      }
+      start_position {
+        offset: 59
+        line: 2
+        col: 41
+      }
+      end_position {
+        offset: 119
+        line: 6
+        col: 3
+      }
+      roles: STATEMENT
+      roles: BLOCK
+      roles: SCOPE
+      roles: FUNCTION
+      roles: BODY
+    }
+    start_position {
+      offset: 20
+      line: 2
+      col: 2
+    }
+    end_position {
+      offset: 119
+      line: 6
+      col: 3
+    }
+    roles: VISIBILITY
+    roles: WORLD
+    roles: DECLARATION
+    roles: FUNCTION
+  }
+  start_position {
+    line: 1
+    col: 1
+  }
+  end_position {
+    offset: 121
+    line: 7
+    col: 2
+  }
+  roles: VISIBILITY
+  roles: WORLD
+  roles: DECLARATION
+  roles: TYPE
+}
+start_position {
+  line: 1
+  col: 1
+}
+end_position {
+  offset: 122
+}
+roles: FILE
+
